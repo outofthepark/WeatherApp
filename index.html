@@ -8,10 +8,19 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    
-    <div id="searchDiv"><input type="text" id="searchBar"></input></div>
+
+<div id="headerDiv"><h1>Weather Dashboard</h1></div>
+
+<div id="pageDiv">
+    <div id="searchDiv">
+        <h2 id="searchHeader">Search for a city: </h2>
+        <input type="text" id="searchBar"></input>
+        <button id="searchButton">Search</button>
+        <hr class="solid">
+    </div>
 
     <div id="displayDiv"></div>
+</div>
 
     <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
